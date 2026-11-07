@@ -18,13 +18,6 @@ An intelligent Natural Language Processing (NLP) bilingual dictionary and semant
 
 ---
 
-## 👥 Project Credits
-
-- **R25DG013** — Mohamed Haarish
-- **R25DG033** — Yanthungremo Ezung
-
----
-
 ## 📁 Repository Structure
 
 ```text
@@ -35,9 +28,6 @@ An intelligent Natural Language Processing (NLP) bilingual dictionary and semant
 │   ├── train.py              # Model training script & typo benchmark suite
 │   ├── cli.py                # Interactive command-line lookup interface
 │   └── requirements.txt      # Python dependencies for backend
-├── deliverables/
-│   ├── Bilingual_Dictionary_Project_Presentation.pptx  # 16:9 Slide presentation deck
-│   └── Bilingual_Dictionary_Project_Report.pdf        # Formatted project report
 ├── src/
 │   ├── app/
 │   │   ├── api/tts/route.ts  # Next.js TTS audio route
@@ -46,9 +36,7 @@ An intelligent Natural Language Processing (NLP) bilingual dictionary and semant
 │   │   └── globals.css       # Tailwind CSS styling & custom utilities
 │   ├── components/           # UI Modals, AudioPlayer, Cards, & Navigation
 │   └── lib/                  # TypeScript types, client-side NLP fallback & API client
-├── generate_presentation.py  # Automation script to rebuild PPTX deck
-├── generate_report.py        # Automation script to rebuild PDF report
-├── requirements.txt          # Python requirements (backend + doc generators)
+├── requirements.txt          # Python requirements for backend
 └── package.json              # Next.js / TypeScript project manifest
 ```
 
@@ -175,20 +163,6 @@ Try searching with these intentional typos to test the fuzzy correction algorith
 | `vanakam` | `vanakkam` (வணக்கம்) | Tamil | PASS (Top-1 Match) |
 | `neeruu` | `neeru` (ನೀರು) | Kannada | PASS (Top-1 Match) |
 | `vellamm` | `vellam` (വെള്ളം) | Malayalam | PASS (Top-1 Match) |
-
----
-
-## 📄 Deliverables Generation
-
-To re-generate the project presentation or formatted academic report:
-```bash
-# Generate 16:9 PowerPoint Presentation
-python generate_presentation.py
-
-# Generate Multi-page PDF Report with Table of Contents & Typography
-python generate_report.py
-```
-Deliverables are output to the `deliverables/` folder.
 
 ---
 

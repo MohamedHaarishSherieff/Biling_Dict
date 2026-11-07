@@ -11,7 +11,6 @@ from nlp_model import IndicNLPModel
 def run_training_and_benchmark():
     print("=" * 65)
     print("  Bilingual Dictionary & Meaning Finder - Indic NLP Training")
-    print("  Project by: R25DG033 Yanthungremo Ezung & R25DG013 Mohamed Haarish")
     print("=" * 65)
 
     print("\n[Step 1] Loading bilingual dictionary dataset...")
