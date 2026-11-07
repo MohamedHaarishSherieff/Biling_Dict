@@ -109,8 +109,8 @@ The system is built on a hybrid architecture separating high-performance NLP com
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
-cd "BIlingual Dictionary(NLP)"
+git clone https://github.com/MohamedHaarishSherieff/Biling_Dict.git
+cd Biling_Dict
 ```
 
 ---
